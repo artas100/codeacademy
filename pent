@@ -1,0 +1,11 @@
+print('Enter correct username and password ')
+count = 0
+while count < 3:
+    username = input('Enter username: ')
+    password = input('Enter password: ')
+    if password == '123E' and username == 'admin':
+        print('Access granted')
+        break
+    else:
+        print('Access denied. Try again.')
+        count += 1
